@@ -1,17 +1,15 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>Setting up your own Ghost theme</title>
-    <link href="../assets/css/family-sans.css?v=37f1ff71a4" rel="stylesheet" type="text/css">
-    <link href="../assets/css/family-no-serif-italic.css?v=37f1ff71a4" rel="stylesheet" type="text/css">
-    <link href="../assets/css/font-awesome.css?v=37f1ff71a4" rel="stylesheet">
-    <link href="../assets/css/style.css?v=37f1ff71a4" rel="stylesheet" type="text/css">
-    <link href="../assets/css/animate.min.css?v=37f1ff71a4" rel="stylesheet" type="text/css">
-    <link href="../favicon.png" rel="shortcut icon">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="../assets/styles/main.css?v=d4e39c6d02">
+
     <link rel="shortcut icon" href="../favicon.png" type="image/png">
     <link rel="canonical" href="index.html">
     <meta name="referrer" content="no-referrer-when-downgrade">
@@ -73,7 +71,7 @@
 }
     </script>
 
-    <script src="../public/ghost-sdk.js?v=37f1ff71a4"></script>
+    <script src="../public/ghost-sdk.js?v=d4e39c6d02"></script>
 <script>
 ghost.init({
 	clientId: "ghost-frontend",
@@ -82,31 +80,133 @@ ghost.init({
 </script>
     <meta name="generator" content="Ghost 1.24">
     <link rel="alternate" type="application/rss+xml" title="[##Code|&gt;Passion!]" href="../rss/index.html">
+
 </head>
-<body class="post-template tag-getting-started">
-    <header id="header" class="animated fadeIn" style="background-image: url(https://casper.ghost.org/v1.0.0/images/design.jpg)">
-    <div class="header-background">
-    <section class="blog-content">
-        <a id="site-url" class="blog-title" href="../">[##Code|&gt;Passion!]</a>
-        <span class="blog-description">coding experiences &amp; stories </span>
-        <nav class="links fadeIn animated">
-    <ul>
-        <li class="rss"><a title="RSS Feed" href="../rss/index.rss"><i class="fa fa-fw fa-rss-square"></i></a></li>
-        <li class="github"><a title="GitHub" href="http://github.com/Reedyn/Saga"><i class="fa fa-fw fa-github-square"></i></a></li>
-    </ul>
-</nav>    </section>
-    <section class="header-content">
-        <h1 class="post-title animated fadeInUp">Setting up your own Ghost theme</h1>
-        <span class="post-data"><span class="date animated fadeInUp"><i class="fa fa-clock-o"></i> <time class="timesince date" data-timesince="1529454337" datetime="2018-06-20T00:25" title="20 June 2018">2 days ago</time></span>
-            <span class="tags animated fadeInUp"><i class="fa fa-tags"></i> <a href="../tag/getting-started/">Getting Started</a></span>
-            <span class="author animated fadeInUp"><i class="fa fa-user"></i> <a href="../author/ghost-user/">Ghost</a></span></span>
+<body class="is-article " data-page-url="http://localhost:2368">
+
+    <header id="header" class="header toolbar-shadow">
+    <section class="header-wrap u-flex-wrap u-flex-center">
+
+        <a class="header-logo" href="../">
+                <img src="../content/images/2018/06/method-draw-image-lightblue.svg" alt="[##Code|&gt;Passion!]">
+                <span class="header-logo-bg" style="display:none;background-image:url(../content/images/2018/06/method-draw-image-lightblue.svg)"></span>
+        </a>
+
+        <nav class="header-menu u-flex"><ul class="u-unstyled">
+        <li><a href="../" class="navigation-link ">Home</a></li>
+</ul>
+</nav>
+
+        <form id="header-search" class="header-search u-flex">
+            <div id="searchbox" class="searchbox">
+                <input id="searchbox-input" placeholder="Search" type="text" class="search-field" name="q" value="" autocomplete="off">
+                <span class="search-icon i-search"></span>
+            </div>
+
+            <div class="search-popout closed">
+                <div id="search-results" class="search-suggest-results" style="display:none"></div>
+            </div>
+        </form>
+
+        <aside class="header-follow u-flex u-h-b-lg social_box">
+            
+            
+        </aside>
+
+        <a id="search-mob-toggle" class="search-mob-toggle btn btn-lg btn-flat u-h-a-lg i-search" href="index.html#"></a>
+        <a id="nav-mob-toggle" class="nav-mob-toggle btn btn-lg btn-flat u-h-a-lg" href="index.html#"><span></span><span></span><span></span></a>
+
     </section>
+
+    <nav class="nav-mob u-h-a-lg">
+    <div class="nav-mob-content">
+
+        <ul class="u-unstyled">
+        <li><a href="../" class="navigation-link ">Home</a></li>
+</ul>
+
+
+        <div class="nav-mob-follow social_box">
+            
+            
+        </div>
+
+        <div class="nav-mob-subscribe">
+            <form method="post" action="../subscribe" class="newsletter-form u-flex">
+    <input class="confirm" type="hidden" name="confirm"><input class="location" type="hidden" name="location"><input class="referrer" type="hidden" name="referrer">
+
+    <div class="form-group">
+        <input class="form-control" type="email" name="email" placeholder="youremail@example.com">
     </div>
+    <button class="btn btn-primary" type="submit"><span>Subscribe</span></button>
+    <script>(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
+</form>
+
+
+        </div>
+
+        <div class="nav-mob-copyright">
+            © 2018 <a href="../">[##Code|&gt;Passion!]</a>
+            <span>Design with</span> <i class="i-favorite heart"></i> by <a href="http://bit.ly/GodoFredoNinja-Mapache" target="_blank" title="Desarrollador Web FullStack.">@GodoFredoNinja</a>
+        </div>
+
+    </div>
+</nav>
+
 </header>
-<main id="main" class="content">
-    <article itemtype="http://schema.org/BlogPosting" class="animated fadeIn content post post tag-getting-started">
-        <section class="post-content">
-            <div class="kg-post">
+
+    <main class="main">
+        <section class="container">
+            <div class="post-wrapper">
+                
+<div class="row">
+    <div class="col s12 content">
+
+
+        <div class="post-card u-card-shadow">
+
+
+<article class="post">
+
+    <header class="post-header">
+        <div class="entry-category" style="margin-bottom:15px"><a href="../tag/getting-started/" class="u-tag">Getting Started</a></div>
+
+        <h1 class="post-title">Setting up your own Ghost theme</h1>
+
+        
+
+        
+<div class="u-flex u-flex-center u-flex-wrap">
+    <div class="post-byline">
+         By <a href="../author/ghost-user/">Ghost</a> / 
+        <time class="timestamp" datetime="2018-06-20"> 2 days ago </time>
+        <span class="reading-time">/ 1 min read</span>
+    </div>
+
+    <ul class="post-actions--top u-flex-center u-unstyled">
+        <li>
+            <a class="scrolltop post-action-comments" href="index.html#post-comments">
+                <i class="i-chat" style="font-size: 16px;line-height: 1;"></i>
+                <span class="disqus-comment-count mapache-disqus u-hide" data-disqus-url="http://localhost:2368/themes/">0 Comments</span>
+                <span class="fb-comments-count mapache-facebook u-hide" data-href="http://localhost:2368/themes/">0</span>
+                <span class="mapache-facebook u-hide">Comments</span>
+            </a>
+        </li>
+        <li class="u-h-b-lg"><a href="index.html#" class="share i-facebook c-facebook" mapache-share="facebook" mapache-url="http://localhost:2368/themes/"></a></li>
+        <li class="u-h-b-lg"><a href="index.html#" class="share i-twitter c-twitter" mapache-share="twitter" mapache-title="Setting up your own Ghost theme" mapache-url="http://localhost:2368/themes/"></a></li>
+        <li class="u-h-b-lg"><a href="index.html#" class="share i-reddit c-reddit" mapache-share="reddit" mapache-url="http://localhost:2368/themes/"></a></li>
+        <li class="u-h-b-lg"><a href="index.html#" class="share i-pinterest c-pinterest" mapache-share="pinterest" mapache-title="Setting up your own Ghost theme" mapache-url="http://localhost:2368/themes/"></a></li>
+        <li class="u-h-b-lg"><a href="index.html#" class="share i-pocket c-pocket" mapache-share="pocket" mapache-url="http://localhost:2368/themes/"></a></li>
+    </ul>
+</div>
+    </header>
+
+                <figure class="post-image"><img class="post-img" src="https://casper.ghost.org/v1.0.0/images/design.jpg" alt="Setting up your own Ghost theme"></figure>
+
+
+    
+
+    <div class="post-body"><div class="kg-post">
 <p>Creating a totally custom design for your publication</p>
 <p>Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes. However, Ghost can also be completely themed to suit your needs. Rather than just giving you a few basic settings which act as a poor proxy for code, we just let you write code.</p>
 <p>There are a huge range of both free and premium pre-built themes which you can get from the <a href="http://marketplace.ghost.org">Ghost Theme Marketplace</a>, or you can simply create your own from scratch.</p>
@@ -125,23 +225,257 @@ ghost.init({
 <p>We've got <a href="http://themes.ghost.org/docs/about">full and extensive theme documentation</a> which outlines every template file, context and helper that you can use.</p>
 <p>If you want to chat with other people making Ghost themes to get any advice or help, there's also a <strong>#themes</strong> channel in our <a href="https://slack.ghost.org">public Slack community</a> which we always recommend joining!</p>
 
+</div></div>
+
+        <div class="post-tags">
+            <a href="../tag/getting-started/" title="Getting Started" class="btn u-tags i-tag">Getting Started</a>
+    </div>
+
+    <div class="row share-subscribe">
+
+    <div class="bottom-share col s12 m5">
+        <h5>Share this Article</h5>
+        <ul class="post-actions u-flex-center u-unstyled">
+            <li><a href="index.html#" class="share btn i-facebook bg-facebook" mapache-share="facebook" mapache-url="http://localhost:2368/themes/"></a></li>
+            <li><a href="index.html#" class="share btn i-twitter bg-twitter" mapache-share="twitter" mapache-title="Setting up your own Ghost theme" mapache-url="http://localhost:2368/themes/"></a></li>
+            <li><a href="index.html#" class="share btn i-reddit bg-reddit" mapache-share="reddit" mapache-url="http://localhost:2368/themes/"></a></li>
+            <li><a href="index.html#" class="share btn i-linkedin bg-linkedin" mapache-share="linkedin" mapache-url="http://localhost:2368/themes/"></a></li>
+            <li class="hide-before-md"><a href="index.html#" class="share btn i-pinterest bg-pinterest" mapache-share="pinterest" mapache-title="Setting up your own Ghost theme" mapache-url="http://localhost:2368/themes/"></a></li>
+        </ul>
+    </div>
+
+        <div class="bottom-subscribe col s12 m7">
+            <h5>Subscribe to [##Code|&gt;Passion!]</h5>
+            <p>Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
+
+            <form method="post" action="../subscribe" class="newsletter-form">
+    <input class="confirm" type="hidden" name="confirm"><input class="location" type="hidden" name="location"><input class="referrer" type="hidden" name="referrer">
+
+    <div class="form-group">
+        <input class="form-control" type="email" name="email" placeholder="youremail@example.com">
+    </div>
+    <button class="btn btn-primary" type="submit"><span>Subscribe</span></button>
+    <script>(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
+</form>
+
+
+        </div>
+
 </div>
-        </section>
-    </article>
-</main>
-    <footer class="animated fadeIn" id="footer">    
-        <section class="colophon">
-    <section class="copyright">Copyright © <span itemprop="copyrightHolder">[##Code|&gt;Passion!]</span>. <span rel="license">All Rights Reserved</span>.</section>
-    <section class="poweredby">Published with <a class="icon-ghost" href="http://ghost.org"> Ghost</a></section>
-</section>
-<section class="bottom">
-    <section class="attribution">
-        <a href="http://github.com/Reedyn/Saga">Built with <i class="fa fa-heart"></i> and Free and Open-Source Software</a>.
-    </section>
-</section>
-    </footer>
+
     
-    <script src="../assets/js/jquery.min.js?v=37f1ff71a4"></script>
-    <script src="../assets/js/jquery-migrate.min.js?v=37f1ff71a4"></script>
-    <script src="../assets/js/scripts.js?v=37f1ff71a4"></script>
+<div class="post-author">
+    <a class="post-author-avatar u-not-avatar" href="../author/ghost-user/"></a>
+    <div class="post-author-wrap">
+        <p class="post-author-bio"><strong><a href="../author/ghost-user/">Ghost</a></strong> — You can delete this user to remove all the welcome posts</p>
+
+        <ul class="u-unstyled u-flex u-h-b-lg">
+
+            
+            
+        </ul>
+
+        <p style="margin:15px 0 0" class="post-author-bio">Read <a href="../author/ghost-user/">more posts</a> by this author.</p>
+
+    </div>
+</div>
+
+
+    <div id="post-comments" class="post-comments">
+
+    <div id="disqus_thread" class="mapache-disqus u-hide"></div>
+
+    <div class="fb-comments mapache-facebook u-hide" data-href="http://localhost:2368/themes/" data-width="100%" data-numposts="5"></div>
+</div>
+
+
+</article>
+
+
+
+
+    <div class="post-related">
+        <h2 class="post-related-title u-border-bottom-dark">Related Article</h2>
+        <div id="post-related-wrap" class="row">
+
+            <div class="col s12 m6 l4">
+                <div class="entry entry--small">
+                    <div class="entry-image">
+                        <a href="../fsharp-news/" class="entry-image--link u-relative u-block" style="background-color:#f0f0f0">
+                            <span class="entry-image--bg entry-lazy u-absolute0 u-bg-cover u-block" data-original="/content/images/2018/06/18278276-2.png"></span>
+                        </a>
+                    </div>
+                <h3 class="entry-title"><a href="../fsharp-news/">FSharp and Azure Functions example</a></h3>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="entry entry--small">
+                    <div class="entry-image">
+                        <a href="../the-editor/" class="entry-image--link u-relative u-block" style="background-color:#f0f0f0">
+                            <span class="entry-image--bg entry-lazy u-absolute0 u-bg-cover u-block" data-original="https://casper.ghost.org/v1.0.0/images/writing.jpg"></span>
+                        </a>
+                    </div>
+                <h3 class="entry-title"><a href="../the-editor/">Using the Ghost editor</a></h3>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="entry entry--small">
+                    <div class="entry-image">
+                        <a href="../using-tags/" class="entry-image--link u-relative u-block" style="background-color:#f0f0f0">
+                            <span class="entry-image--bg entry-lazy u-absolute0 u-bg-cover u-block" data-original="https://casper.ghost.org/v1.0.0/images/tags.jpg"></span>
+                        </a>
+                    </div>
+                <h3 class="entry-title"><a href="../using-tags/">Organising your content with tags</a></h3>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="entry entry--small">
+                    <div class="entry-image">
+                        <a href="../managing-users/" class="entry-image--link u-relative u-block" style="background-color:#f0f0f0">
+                            <span class="entry-image--bg entry-lazy u-absolute0 u-bg-cover u-block" data-original="https://casper.ghost.org/v1.0.0/images/team.jpg"></span>
+                        </a>
+                    </div>
+                <h3 class="entry-title"><a href="../managing-users/">Managing Ghost users</a></h3>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="entry entry--small">
+                    <div class="entry-image">
+                        <a href="../private-sites/" class="entry-image--link u-relative u-block" style="background-color:#f0f0f0">
+                            <span class="entry-image--bg entry-lazy u-absolute0 u-bg-cover u-block" data-original="https://casper.ghost.org/v1.0.0/images/locked.jpg"></span>
+                        </a>
+                    </div>
+                <h3 class="entry-title"><a href="../private-sites/">Making your site private</a></h3>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="entry entry--small">
+                    <div class="entry-image">
+                        <a href="../advanced-markdown/" class="entry-image--link u-relative u-block" style="background-color:#f0f0f0">
+                            <span class="entry-image--bg entry-lazy u-absolute0 u-bg-cover u-block" data-original="https://casper.ghost.org/v1.0.0/images/advanced.jpg"></span>
+                        </a>
+                    </div>
+                <h3 class="entry-title"><a href="../advanced-markdown/">Advanced Markdown tips</a></h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</div>
+
+    </div>
+
+    <div id="sidebar" class="col s12 m4 sidebar sidebar-sticky u-h-b-lg">
+
+            <div class="sidebar-items u-card-shadow">
+    <h3 class="sidebar-title">Latest Posts</h3>
+
+    <div class="sidebar-post">
+        <a href="../fsharp-news/" class="sidebar-post--link">
+            <span class="sidebar-post--border">1</span>
+            <h3 class="sidebar-post--title">FSharp and Azure Functions example</h3>
+        </a>
+    </div>
+    <div class="sidebar-post">
+        <a href="../the-editor/" class="sidebar-post--link">
+            <span class="sidebar-post--border">2</span>
+            <h3 class="sidebar-post--title">Using the Ghost editor</h3>
+        </a>
+    </div>
+    <div class="sidebar-post">
+        <a href="../using-tags/" class="sidebar-post--link">
+            <span class="sidebar-post--border">3</span>
+            <h3 class="sidebar-post--title">Organising your content with tags</h3>
+        </a>
+    </div>
+    <div class="sidebar-post">
+        <a href="../managing-users/" class="sidebar-post--link">
+            <span class="sidebar-post--border">4</span>
+            <h3 class="sidebar-post--title">Managing Ghost users</h3>
+        </a>
+    </div>
+    <div class="sidebar-post">
+        <a href="../private-sites/" class="sidebar-post--link">
+            <span class="sidebar-post--border">5</span>
+            <h3 class="sidebar-post--title">Making your site private</h3>
+        </a>
+    </div>
+
+</div>
+
+        <div class="sidebar-items u-card-shadow">
+        <h3 class="sidebar-title">Tags</h3>
+            <a href="../tag/getting-started/" class="btn u-tags i-tag">Getting Started</a>
+            <a href="../tag/fsharp/" class="btn u-tags i-tag">FSharp</a>
+            <a href="../tag/f/" class="btn u-tags i-tag">F#</a>
+            <a href="../tag/discriminated-union/" class="btn u-tags i-tag">Discriminated Union</a>
+    </div>
+
+    <div class="sidebar-items u-hide u-card-shadow">
+        <h3 class="sidebar-title">Recents Tweets</h3>
+        <div class="widget-twitter"></div>
+    </div>
+
+    <div class="sidebar-items u-hide u-card-shadow" style="min-height:500px">
+        <h3 class="sidebar-title">Facebook</h3>
+        <div class="widget-facebook"></div>
+    </div>
+</div>
+</div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+    <div class="footer-wrap">
+        <div class="footer-follow social_box">
+            
+            
+        </div>
+
+        <div class="footer-copy">© 2018 <a href="../">[##Code|&gt;Passion!]</a></div>
+        <div class="footer-design-author"><span>Design with</span> <i class="i-favorite heart"></i> by <a href="http://bit.ly/GodoFredoNinja-Mapache" target="_blank" title="Developer Web FullStack.">@GodoFredoNinja</a></div>
+    </div>
+</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    
+
+    
+<script>
+    var disqus_config = function () {
+        this.page.url = 'http://localhost:2368/themes/';
+        this.page.identifier = 'ghost-5b299f01f373051290e1298c';
+    };
+
+    (function() {
+        if (typeof disqusShortName !== 'undefined') {
+            $('.mapache-disqus').removeClass('u-hide');
+            var d = document, s = d.createElement('script');
+            s.async = true;
+            // IMPORTANT: Replace EXAMPLE with your forum shortname!
+            s.src = 'https://'+disqusShortName+'.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        }
+    })();
+</script>
+
+
+
+    <a href="index.html#" class="scroll_top u-h-b-lg">
+        <span class="svg-icon u-block">
+            <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewbox="0 0 512 512"><path fill="#999" d="M251.7 169.6c-31 0-56 25-56 56 0 30.8 25 56 56 56 30.8 0 56-25.2 56-56 0-31-25.2-56-56-56zm0 95.6c-22 0-39.7-17.8-39.7-39.6 0-22 17.8-39.7 39.7-39.7 21.8 0 39.6 17.7 39.6 39.6 0 21.8-17.8 39.6-39.6 39.6zM251.7 395.7c-23.7 0-43 19.2-43 43 0 20.8 30.4 62 36.5 70 1.5 2 4 3.3 6.5 3.3s5-1.2 6.5-3.2c6-8 36.4-49.3 36.4-70.2 0-23.7-19.3-43-43-43zm0 94.3C239 472 225 448.3 225 438.6c0-14.7 12-26.6 26.7-26.6 14.6 0 26.6 12 26.6 26.6 0 9.7-14 33.3-26.6 51.4z"></path><path fill="#999" d="M448.4 371.7l-80-71.5v-153-.6-.4-.4-.4l-.2-.4v-.4c-.2 0-.2-.2-.3-.3l-.2-.4c0-.2 0-.3-.2-.4 0-.2 0-.3-.2-.4 0 0 0-.2-.2-.3 0-.3-.2-.4-.3-.5l-.2-.2L258 3c-1.5-1.8-3.8-3-6.3-3-2.6 0-5 1.2-6.5 3L136.5 142.4v.2c-.2 0-.3.2-.4.4v.2l-.3.3c0 .2 0 .3-.2.4v.3c-.2 0-.2.2-.3.3v.4l-.2.4v.8l-.2.4v153.8l-80 71.4c-2.4 2.2-3.3 5.8-2 9 1 3 4.2 5.2 7.5 5.2H443c3.4 0 6.4-2.2 7.6-5.3 1.2-3.2.3-6.8-2.2-9zm-313.6-2h-53l53-47.6v47.6zm117-348.3L343.5 139h-184l92-117.6zM352 369.6h-201V312h201v57.6zm0-74h-201V155.5h201v140.3zm16.3 74V322l53 47.6h-53z"></path><path fill="#999" d="M261.8 202.4c-3.2-3.2-8.4-3.2-11.6 0L228.5 224c-3.2 3.3-3.2 8.5 0 11.7 1.6 1.6 3.7 2.4 5.8 2.4s4-.7 5.7-2.3l21.8-21.8c3-3.3 3-8.4 0-11.6zM274.8 224c-3.2-3-8.3-3-11.5 0l-13 13.2c-3.2 3.2-3.2 8.3 0 11.5 1.5 1.6 3.6 2.4 5.7 2.4 2 0 4.2-.7 5.8-2.3l13-13c3.2-3.2 3.2-8.4 0-11.6zM486.5 252.2c-4.5 0-8.2 3.6-8.2 8v148c0 4.5 3.7 8 8.2 8 4.5 0 8-3.5 8-8v-148c0-4.4-3.5-8-8-8zM434.3 217.4c-4.5 0-8.2 3.7-8.2 8.2v52c0 4.6 3.8 8.3 8.3 8.3 4.5 0 8-3.8 8-8.3v-52c0-4.6-3.5-8.3-8-8.3zM25.5 261c-4.5 0-8 3.5-8 8v174c0 4.5 3.5 8 8 8s8.2-3.5 8.2-8V269c0-4.5-3.7-8-8.2-8zM77.7 182.6c-4.5 0-8 3.7-8 8.2V269c0 4.5 3.5 8.2 8 8.2s8.2-3.7 8.2-8.2v-78.2c0-4.5-3.8-8.2-8.3-8.2z"></path></svg>
+        </span>
+    </a>
+
+    <script src="../assets/scripts/main.js?v=d4e39c6d02"></script>
+
+    <script>WebFontConfig ={google:{families:['Roboto:300,400,500, 700','Roboto+Mono']}};(function(){var wf=document.createElement('script');wf.src='https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js';wf.type='text/javascript';wf.async='true';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(wf,s);})();</script>
 </body>
