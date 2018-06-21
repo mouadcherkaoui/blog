@@ -1,0 +1,132 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>FSharp and Azure Functions example</title>
+    <link href="http://fonts.googleapis.com/css?family=Noto+Sans:300,400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic" rel="stylesheet" type="text/css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="../assets/css/style.css?v=c2a4789888" rel="stylesheet" type="text/css">
+    <link href="../assets/css/animate.min.css?v=c2a4789888" rel="stylesheet" type="text/css">
+    <link href="../favicon.png" rel="shortcut icon">
+    <link rel="shortcut icon" href="../favicon.png" type="image/png">
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="amphtml" href="amp/index.html">
+    
+    <meta property="og:site_name" content="[##Code|&gt;Passion!]">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="FSharp and Azure Functions example">
+    <meta property="og:description" content="this is a little tutorial demonstrating the usage of F# language, and ADO.Net as data access mechanism, and also substituting it with a new mechanism that use Azure Table Storage as store.Prerequisites :installing dotnetcore and vscode : first of all our sample program is based on .Net core framework,">
+    <meta property="og:url" content="http://localhost:2368/fsharp-news/">
+    <meta property="og:image" content="http://localhost:2368/content/images/2018/06/18278276-2.png">
+    <meta property="article:published_time" content="2018-06-20T15:15:58.000Z">
+    <meta property="article:modified_time" content="2018-06-20T19:38:45.000Z">
+    <meta property="article:tag" content="FSharp">
+    <meta property="article:tag" content="Getting Started">
+    <meta property="article:tag" content="F#">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FSharp and Azure Functions example">
+    <meta name="twitter:description" content="this is a little tutorial demonstrating the usage of F# language, and ADO.Net as data access mechanism, and also substituting it with a new mechanism that use Azure Table Storage as store.Prerequisites :installing dotnetcore and vscode : first of all our sample program is based on .Net core framework,">
+    <meta name="twitter:url" content="http://localhost:2368/fsharp-news/">
+    <meta name="twitter:image" content="http://localhost:2368/content/images/2018/06/18278276-2.png">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Mouad Cherkaoui">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="FSharp, Getting Started, F#">
+    <meta property="og:image:width" content="1535">
+    <meta property="og:image:height" content="789">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "[##Code|&gt;Passion!]",
+        "logo": "http://localhost:2368/content/images/2018/06/method-draw-image-lightblue.svg"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Mouad Cherkaoui",
+        "url": "http://localhost:2368/author/mouad/",
+        "sameAs": []
+    },
+    "headline": "FSharp and Azure Functions example",
+    "url": "http://localhost:2368/fsharp-news/",
+    "datePublished": "2018-06-20T15:15:58.000Z",
+    "dateModified": "2018-06-20T19:38:45.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://localhost:2368/content/images/2018/06/18278276-2.png",
+        "width": 1535,
+        "height": 789
+    },
+    "keywords": "FSharp, Getting Started, F#",
+    "description": "this is a little tutorial demonstrating the usage of F# language, and ADO.Net as data access mechanism, and also substituting it with a new mechanism that use Azure Table Storage as store.Prerequisites :installing dotnetcore and vscode : first of all our sample program is based on .Net core framework,",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2368/"
+    }
+}
+    </script>
+
+    <script src="../public/ghost-sdk.js?v=c2a4789888"></script>
+<script>
+ghost.init({
+	clientId: "ghost-frontend",
+	clientSecret: "4f169f79b948"
+});
+</script>
+    <meta name="generator" content="Ghost 1.24">
+    <link rel="alternate" type="application/rss+xml" title="[##Code|&gt;Passion!]" href="../rss/index.html">
+</head>
+<body class="post-template tag-fsharp tag-getting-started tag-f">
+    <header id="header" class="animated fadeIn" style="background-image: url(../content/images/2018/06/18278276-2.png)">
+    <div class="header-background">
+    <section class="blog-content">
+        <a id="site-url" class="blog-title" href="../">[##Code|&gt;Passion!]</a>
+        <span class="blog-description">coding experiences &amp; stories </span>
+        <nav class="links fadeIn animated">
+    <ul>
+        <li class="rss"><a title="RSS Feed" href="../rss/index.rss"><i class="fa fa-fw fa-rss-square"></i></a></li>
+        <li class="github"><a title="GitHub" href="http://github.com/Reedyn/Saga"><i class="fa fa-fw fa-github-square"></i></a></li>
+    </ul>
+</nav>    </section>
+    <section class="header-content">
+        <h1 class="post-title animated fadeInUp">FSharp and Azure Functions example</h1>
+        <span class="post-data"><span class="date animated fadeInUp"><i class="fa fa-clock-o"></i> <time class="timesince date" data-timesince="1529507758" datetime="2018-06-20T15:15" title="20 June 2018">a day ago</time></span>
+            <span class="tags animated fadeInUp"><i class="fa fa-tags"></i> <a href="../tag/fsharp/">FSharp</a>, <a href="../tag/getting-started/">Getting Started</a>, <a href="../tag/f/">F#</a></span>
+            <span class="author animated fadeInUp"><i class="fa fa-user"></i> <a href="../author/mouad/">Mouad Cherkaoui</a></span></span>
+    </section>
+    </div>
+</header>
+<main id="main" class="content">
+    <article itemtype="http://schema.org/BlogPosting" class="animated fadeIn content post post tag-fsharp tag-getting-started tag-f featured">
+        <section class="post-content">
+            <div class="kg-post">
+<h2>this is a little tutorial demonstrating the usage of F# language, and ADO.Net as data access mechanism, and also substituting it with a new mechanism that use Azure Table Storage as store.</h2><h2>Prerequisites :</h2><h3>installing dotnetcore and vscode : </h3><p>first of all our sample program is based on .Net core framework, and also we will use azure function cli tools to generate debug and deploy our function to Azure App Service.</p><ul><li>go to <a href="https://dot.net">dot.net</a>, and then click download link.</li><li>install the package.</li><li>go to <a href="https://code.visualstudio.com">code.visualstudio.com</a>, and download the right version for your operating system, for linux you will find instructions about installing it on this link.</li><li>launch vscode, and in the left sidebar you click on the plugins icon, the last one.</li><li>then search ionide, and install it.</li><li></ul><p>using F# on azure functions and Azure API services.</p>
+</div>
+        </section>
+    </article>
+</main>
+    <footer class="animated fadeIn" id="footer">    
+        <section class="colophon">
+    <section class="copyright">Copyright © <span itemprop="copyrightHolder">[##Code|&gt;Passion!]</span>. <span rel="license">All Rights Reserved</span>.</section>
+    <section class="poweredby">Published with <a class="icon-ghost" href="http://ghost.org"> Ghost</a></section>
+</section>
+<section class="bottom">
+    <section class="attribution">
+        <a href="http://github.com/Reedyn/Saga">Built with <i class="fa fa-heart"></i> and Free and Open-Source Software</a>.
+    </section>
+</section>
+    </footer>
+    
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="../assets/js/scripts.js?v=c2a4789888"></script>
+</body>
