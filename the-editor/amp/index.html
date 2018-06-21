@@ -32,6 +32,8 @@
     <meta name="twitter:data1" content="Ghost">
     <meta name="twitter:label2" content="Filed under">
     <meta name="twitter:data2" content="Getting Started">
+    <meta property="og:image:width" content="1400">
+    <meta property="og:image:height" content="935">
     
     <script type="application/ld+json">
 {
@@ -52,7 +54,12 @@
     "url": "http://localhost:2368/the-editor/",
     "datePublished": "2018-06-20T00:25:42.000Z",
     "dateModified": "2018-06-20T00:25:38.000Z",
-    "image": "https://casper.ghost.org/v1.0.0/images/writing.jpg",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://casper.ghost.org/v1.0.0/images/writing.jpg",
+        "width": 1400,
+        "height": 935
+    },
     "keywords": "Getting Started",
     "description": "Ghost uses a language called Markdown to format text. When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words in your document. The biggest benefit of Markdown is that you",
     "mainEntityOfPage": {
