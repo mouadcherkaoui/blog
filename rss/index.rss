@@ -1,30 +1,35 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>[##Code|&gt;Passion!]</title><description>coding experiences &amp; stories </description><link>http://localhost:2368/</link><image><url>http://localhost:2368/favicon.png</url><title>[##Code|&gt;Passion!]</title><link>http://localhost:2368/</link></image><generator>Ghost 1.24</generator><lastBuildDate>Thu, 21 Jun 2018 23:09:59 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>a good Angular 6, mongoDb, Node express, real world example.</title><description>&lt;div class="kg-post"&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>[##Code|&gt;Passion!]</title><description>coding experiences &amp; stories </description><link>http://localhost:2368/</link><image><url>http://localhost:2368/favicon.png</url><title>[##Code|&gt;Passion!]</title><link>http://localhost:2368/</link></image><generator>Ghost 1.24</generator><lastBuildDate>Fri, 22 Jun 2018 11:30:25 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>a good Angular 6, mongoDb, Node express, real world example.</title><description>&lt;div class="kg-post"&gt;
 &lt;figure class="kg-image-card"&gt;&lt;img src="http://localhost:2368/content/images/2018/06/image.png" class="kg-image"&gt;&lt;/figure&gt;&lt;p&gt;just found a good real example of not just angular and expressjs, but for a lot of technologies and frameworks, then take a look, and enjoy it ;)&lt;/p&gt;
 &lt;/div&gt;</description><link>http://localhost:2368/angular-6-mongodb-node-express-realworld-example/</link><guid isPermaLink="false">5b2c2639ef9a9600f71d1113</guid><dc:creator>Mouad Cherkaoui</dc:creator><pubDate>Thu, 21 Jun 2018 22:30:29 GMT</pubDate><media:content url="http://localhost:2368/content/images/2018/06/Untitled.png" medium="image"/><content:encoded>&lt;div class="kg-post"&gt;
 &lt;figure class="kg-image-card"&gt;&lt;img src="http://localhost:2368/content/images/2018/06/image.png" class="kg-image" alt="a good Angular 6, mongoDb, Node express, real world example."&gt;&lt;/figure&gt;&lt;img src="http://localhost:2368/content/images/2018/06/Untitled.png" alt="a good Angular 6, mongoDb, Node express, real world example."&gt;&lt;p&gt;just found a good real example of not just angular and expressjs, but for a lot of technologies and frameworks, then take a look, and enjoy it ;)&lt;/p&gt;
 &lt;/div&gt;</content:encoded></item><item><title>FSharp and Azure Functions example</title><description>&lt;div class="kg-post"&gt;
 &lt;h2&gt;this is a little tutorial demonstrating the usage of F# language, and ADO.Net as data access mechanism, and also substituting it with a new mechanism that use Azure Table Storage as store.&lt;/h2&gt;&lt;h2&gt;Prerequisites :&lt;/h2&gt;&lt;h3&gt;installing dotnetcore and vscode : &lt;/h3&gt;&lt;p&gt;first of all our sample program is based on .Net core framework,&lt;/p&gt;&lt;/div&gt;</description><link>http://localhost:2368/fsharp-news/</link><guid isPermaLink="false">5b2a6f50277dd829b36bb979</guid><category>FSharp</category><category>Getting Started</category><category>F#</category><dc:creator>Mouad Cherkaoui</dc:creator><pubDate>Wed, 20 Jun 2018 15:15:58 GMT</pubDate><media:content url="http://localhost:2368/content/images/2018/06/18278276-2.png" medium="image"/><content:encoded>&lt;div class="kg-post"&gt;
 &lt;h2&gt;this is a little tutorial demonstrating the usage of F# language, and ADO.Net as data access mechanism, and also substituting it with a new mechanism that use Azure Table Storage as store.&lt;/h2&gt;&lt;h2&gt;Prerequisites :&lt;/h2&gt;&lt;h3&gt;installing dotnetcore and vscode : &lt;/h3&gt;&lt;img src="http://localhost:2368/content/images/2018/06/18278276-2.png" alt="FSharp and Azure Functions example"&gt;&lt;p&gt;first of all our sample program is based on .Net core framework, and also we will use azure function cli tools to generate debug and deploy our function to Azure App Service.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;go to &lt;a href="https://dot.net"&gt;dot.net&lt;/a&gt;, and then click download link.&lt;/li&gt;&lt;li&gt;install the package.&lt;/li&gt;&lt;li&gt;go to &lt;a href="https://code.visualstudio.com"&gt;code.visualstudio.com&lt;/a&gt;, and download the right version for your operating system, for linux you will find instructions about installing it on this link.&lt;/li&gt;&lt;li&gt;launch vscode, and in the left sidebar you click on the plugins icon, the last one.&lt;/li&gt;&lt;li&gt;then search ionide, and install it.&lt;/li&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;using F# on azure functions and Azure API services.&lt;/p&gt;
-&lt;/div&gt;</content:encoded></item><item><title>Using the Ghost editor</title><description>&lt;div class="kg-post"&gt;
-&lt;p&gt;Ghost uses a language called &lt;strong&gt;Markdown&lt;/strong&gt; to format text.&lt;/p&gt;
-&lt;p&gt;When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words in your document. The biggest benefit of Markdown is that you&lt;/p&gt;&lt;/div&gt;</description><link>http://localhost:2368/the-editor/</link><guid isPermaLink="false">5b2a9edd277dd829b36bb98b</guid><category>Getting Started</category><dc:creator>Ghost</dc:creator><pubDate>Wed, 20 Jun 2018 00:25:42 GMT</pubDate><media:content url="https://casper.ghost.org/v1.0.0/images/writing.jpg" medium="image"/><content:encoded>&lt;div class="kg-post"&gt;
-&lt;img src="https://casper.ghost.org/v1.0.0/images/writing.jpg" alt="Using the Ghost editor"&gt;&lt;p&gt;Ghost uses a language called &lt;strong&gt;Markdown&lt;/strong&gt; to format text.&lt;/p&gt;
-&lt;p&gt;When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words in your document. The biggest benefit of Markdown is that you can quickly apply formatting as you type, without needing to pause.&lt;/p&gt;
-&lt;p&gt;At the bottom of the editor, you'll find a toolbar with basic formatting options to help you get started as easily as possible. You'll also notice that there's a &lt;strong&gt;?&lt;/strong&gt; icon, which contains more advanced shortcuts.&lt;/p&gt;
-&lt;p&gt;For now, though, let's run you through some of the basics. You'll want to make sure you're editing this post in order to see all the Markdown we've used.&lt;/p&gt;
-&lt;h2 id="formattingtext"&gt;Formatting text&lt;/h2&gt;
-&lt;p&gt;The most common shortcuts are of course, &lt;strong&gt;bold&lt;/strong&gt; text, &lt;em&gt;italic&lt;/em&gt; text, and &lt;a href="https://example.com"&gt;hyperlinks&lt;/a&gt;. These generally make up the bulk of any document. You can type the characters out, but you can also use keyboard shortcuts.&lt;/p&gt;
+&lt;/div&gt;</content:encoded></item><item><title>Using Ghost on gh-pages</title><description>&lt;div class="kg-post"&gt;
+&lt;p&gt;Ghost is a very good blogging system, that uses &lt;strong&gt;Markdown&lt;/strong&gt; to format text.&lt;/p&gt;
+&lt;p&gt;and then with this simplicity and the good gh-pages to host projects pages, i decided to go through using ghost on gh-pages and then maybe porting code to be a github app.&lt;/p&gt;
+&lt;h2 id="installingghost"&gt;Installing Ghost.&lt;/h2&gt;
+&lt;p&gt;in this demos&lt;/p&gt;&lt;/div&gt;</description><link>http://localhost:2368/ghosthub-pages/</link><guid isPermaLink="false">5b2a9edd277dd829b36bb98b</guid><category>ghost</category><category>gh-pages</category><category>github</category><dc:creator>Mouad Cherkaoui</dc:creator><pubDate>Wed, 20 Jun 2018 00:25:42 GMT</pubDate><media:content url="https://casper.ghost.org/v1.0.0/images/writing.jpg" medium="image"/><content:encoded>&lt;div class="kg-post"&gt;
+&lt;img src="https://casper.ghost.org/v1.0.0/images/writing.jpg" alt="Using Ghost on gh-pages"&gt;&lt;p&gt;Ghost is a very good blogging system, that uses &lt;strong&gt;Markdown&lt;/strong&gt; to format text.&lt;/p&gt;
+&lt;p&gt;and then with this simplicity and the good gh-pages to host projects pages, i decided to go through using ghost on gh-pages and then maybe porting code to be a github app.&lt;/p&gt;
+&lt;h2 id="installingghost"&gt;Installing Ghost.&lt;/h2&gt;
+&lt;p&gt;in this demos we'll use WSL as a dev environment, you can read this article about getting a dev environment using vs code nodejs, and code on linux subsytem.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;CMD/Ctrl + B&lt;/code&gt; for Bold&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;CMD/Ctrl + I&lt;/code&gt; for Italic&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;CMD/Ctrl + K&lt;/code&gt; for a Link&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;CMD/Ctrl + H&lt;/code&gt; for a Heading (Press multiple times for h2/h3/h4/etc)&lt;/li&gt;
+&lt;li&gt;first we need to install the ghost cli: npm i -g ghost-cli&lt;/li&gt;
+&lt;li&gt;since we are using Ghost to generate content and then capture it using buster, we will install a local dev version of ghost, this is easy using the cli : ghost install local.&lt;/li&gt;
+&lt;li&gt;now we need to install buster, then ensure you have python3 and pip3 installed and type : pip3 install buster&lt;/li&gt;
+&lt;li&gt;now type : ghost start&lt;/li&gt;
+&lt;li&gt;you can go add articles and customize the theme.&lt;/li&gt;
+&lt;li&gt;now configure buster : buster setup&lt;/li&gt;
+&lt;li&gt;buster cli will ask for your github repo.&lt;/li&gt;
+&lt;li&gt;now generate the static files using : buster generate&lt;/li&gt;
+&lt;li&gt;type : buster deploy&lt;/li&gt;
+&lt;li&gt;go to your .....github.io/&lt;repo&gt; to see the result&lt;/repo&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;With just a couple of extra characters here and there, you're well on your way to creating a beautifully formatted story.&lt;/p&gt;
-&lt;h2 id="insertingimages"&gt;Inserting images&lt;/h2&gt;
-&lt;p&gt;Images in Markdown look just the same as links, except they're prefixed with an exclamation mark, like this:&lt;/p&gt;
+&lt;p&gt;for now each time you add an article or update something, you have to generate and re-deploy the ghost content to github.&lt;/p&gt;
+&lt;h2 id="tryingfirestoreasastoragemechasnism"&gt;trying firestore as a storage mechasnism.&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;![Image description](/path/to/image.jpg)&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://casper.ghost.org/v1.0.0/images/computer.jpg" alt="Using the Ghost editor"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://casper.ghost.org/v1.0.0/images/computer.jpg" alt="Using Ghost on gh-pages"&gt;&lt;/p&gt;
 &lt;p&gt;Most Markdown editors don't make you type this out, though. In Ghost you can click on the image icon in the toolbar at the bottom of the editor, or you can just click and drag an image from your desktop directly into the editor. Both will upload the image for you and generate the appropriate Markdown.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Important Note:&lt;/strong&gt; Ghost does not currently have automatic image resizing, so it's always a good idea to make sure your images aren't gigantic files &lt;strong&gt;before&lt;/strong&gt; uploading them to Ghost.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id="makinglists"&gt;Making lists&lt;/h2&gt;
@@ -51,22 +56,39 @@
 &lt;hr&gt;
 &lt;p&gt;This should get you going with the vast majority of what you need to do in the editor, but if you're still curious about more advanced tips then check out the &lt;a href="http://localhost:2368/advanced-markdown/"&gt;Advanced Markdown Guide&lt;/a&gt; - or if you'd rather learn about how Ghost taxononomies work, we've got a overview of &lt;a href="http://localhost:2368/using-tags/"&gt;how to use Ghost tags&lt;/a&gt;.&lt;/p&gt;
 
-&lt;/div&gt;</content:encoded></item><item><title>Organising your content with tags</title><description>&lt;div class="kg-post"&gt;
-&lt;p&gt;Ghost has a single, powerful organisational taxonomy, called tags.&lt;/p&gt;
-&lt;p&gt;It doesn't matter whether you want to call them categories, tags, boxes, or anything else. You can think of Ghost tags a lot like Gmail labels. By tagging posts with one or more keyword, you can organise articles into buckets of&lt;/p&gt;&lt;/div&gt;</description><link>http://localhost:2368/using-tags/</link><guid isPermaLink="false">5b2a9edd277dd829b36bb98a</guid><category>Getting Started</category><dc:creator>Ghost</dc:creator><pubDate>Wed, 20 Jun 2018 00:25:41 GMT</pubDate><media:content url="https://casper.ghost.org/v1.0.0/images/tags.jpg" medium="image"/><content:encoded>&lt;div class="kg-post"&gt;
-&lt;img src="https://casper.ghost.org/v1.0.0/images/tags.jpg" alt="Organising your content with tags"&gt;&lt;p&gt;Ghost has a single, powerful organisational taxonomy, called tags.&lt;/p&gt;
-&lt;p&gt;It doesn't matter whether you want to call them categories, tags, boxes, or anything else. You can think of Ghost tags a lot like Gmail labels. By tagging posts with one or more keyword, you can organise articles into buckets of related content.&lt;/p&gt;
-&lt;h2 id="basictagging"&gt;Basic tagging&lt;/h2&gt;
-&lt;p&gt;When you write a post, you can assign tags to help differentiate between categories of content. For example, you might tag some posts with &lt;code&gt;News&lt;/code&gt; and other posts with &lt;code&gt;Cycling&lt;/code&gt;, which would create two distinct categories of content listed on &lt;code&gt;/tag/news/&lt;/code&gt; and &lt;code&gt;/tag/cycling/&lt;/code&gt;, respectively.&lt;/p&gt;
-&lt;p&gt;If you tag a post with both &lt;code&gt;News&lt;/code&gt; &lt;em&gt;and&lt;/em&gt; &lt;code&gt;Cycling&lt;/code&gt; - then it appears in both sections.&lt;/p&gt;
-&lt;p&gt;Tag archives are like dedicated home-pages for each category of content that you have. They have their own pages, their own RSS feeds, and can support their own cover images and meta data.&lt;/p&gt;
-&lt;h2 id="theprimarytag"&gt;The primary tag&lt;/h2&gt;
-&lt;p&gt;Inside the Ghost editor, you can drag and drop tags into a specific order. The first tag in the list is always given the most importance, and some themes will only display the primary tag (the first tag in the list) by default. So you can add the most important tag which you want to show up in your theme, but also add a bunch of related tags which are less important.&lt;/p&gt;
-&lt;p&gt;&lt;mark&gt;&lt;strong&gt;News&lt;/strong&gt;, Cycling, Bart Stevens, Extreme Sports&lt;/mark&gt;&lt;/p&gt;
-&lt;p&gt;In this example, &lt;strong&gt;News&lt;/strong&gt; is the primary tag which will be displayed by the theme, but the post will also still receive all the other tags, and show up in their respective archives.&lt;/p&gt;
-&lt;h2 id="privatetags"&gt;Private tags&lt;/h2&gt;
-&lt;p&gt;Sometimes you may want to assign a post a specific tag, but you don't necessarily want that tag appearing in the theme or creating an archive page. In Ghost, hashtags are private and can be used for special styling.&lt;/p&gt;
-&lt;p&gt;For example, if you sometimes publish posts with video content - you might want your theme to adapt and get rid of the sidebar for these posts, to give more space for an embedded video to fill the screen. In this case, you could use private tags to tell your theme what to do.&lt;/p&gt;
+&lt;/div&gt;</content:encoded></item><item><title>F# "|&gt;" operator like using C# extension methods and generics.</title><description>&lt;div class="kg-post"&gt;
+&lt;p&gt;on F# we can pipe functions result as the last argument for the next function, something that hasn't an alternative in C#, but we can try to do so using extension methods and generics.&lt;/p&gt;
+&lt;h2 id="fpipeoperatorexample"&gt;F# pipe operator example.&lt;/h2&gt;
+&lt;p&gt;lets take a closer look to the F# pipe operator through code.&lt;/p&gt;&lt;/div&gt;</description><link>http://localhost:2368/using-tags/</link><guid isPermaLink="false">5b2a9edd277dd829b36bb98a</guid><category>Getting Started</category><dc:creator>Ghost</dc:creator><pubDate>Wed, 20 Jun 2018 00:25:41 GMT</pubDate><media:content url="https://casper.ghost.org/v1.0.0/images/tags.jpg" medium="image"/><content:encoded>&lt;div class="kg-post"&gt;
+&lt;img src="https://casper.ghost.org/v1.0.0/images/tags.jpg" alt="F# "|&gt;" operator like using C# extension methods and generics."&gt;&lt;p&gt;on F# we can pipe functions result as the last argument for the next function, something that hasn't an alternative in C#, but we can try to do so using extension methods and generics.&lt;/p&gt;
+&lt;h2 id="fpipeoperatorexample"&gt;F# pipe operator example.&lt;/h2&gt;
+&lt;p&gt;lets take a closer look to the F# pipe operator through code.&lt;/p&gt;
+&lt;p&gt;here is the signature of the pipe operator from fsharporg :&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// Signature:
+( |&amp;gt; ) : 'T1 -&amp;gt; ('T1 -&amp;gt; 'U) -&amp;gt; 'U
+
+// Usage:
+arg |&amp;gt; func
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and here is the declaration:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;let (|&amp;gt;) x f = f x 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;   let pipe v f = f v // f(v)
+   let (|&amp;gt;) = pipe
+   let add x y = 
+      x + y
+   let multiply x y = 
+      x * y
+   let add_multiply x y = 
+      // this pipe(pipe(x add(y)) multiply(y))
+      // is the same as :
+      x
+      |&amp;gt; add y
+      |&amp;gt; multiply x
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="letsprojectthislogictoc"&gt;let's project this logic to C#.&lt;/h2&gt;
+&lt;h2 id="extensionmethodsandgenerics"&gt;extension methods and generics.&lt;/h2&gt;
 &lt;p&gt;&lt;mark&gt;&lt;strong&gt;News&lt;/strong&gt;, Cycling, #video&lt;/mark&gt;&lt;/p&gt;
 &lt;p&gt;Here, the theme would assign the post publicly displayed tags of &lt;code&gt;News&lt;/code&gt;, and &lt;code&gt;Cycling&lt;/code&gt; - but it would also keep a private record of the post being tagged with &lt;code&gt;#video&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;In your theme, you could then look for private tags conditionally and give them special formatting:&lt;/p&gt;
